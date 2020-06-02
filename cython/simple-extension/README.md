@@ -10,6 +10,9 @@ def subtract(x, y):
 ```
 
 Create then a **setup.py** for building the extension module.
+
+python3 setup.py build_ext --inplace
+
 Try to utilize the module e.g. as
 ```
 from cyt_module import subtract
